@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>APT UNNES 2026</title>
-    <link rel="icon" type="image/x-icon" href="picture/unnes.png" />
+    <link rel="icon" type="image/png" href="picture/unnes.png" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
-<link rel="icon" type="image/x-icon" href="favicon.ico">
+
     <style>
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
