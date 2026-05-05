@@ -82,26 +82,17 @@
 <div class="container">
     <h1>Data Dukung APT UNNES 2026</h1>
 
+
+
     <div class="accordion-item" id="item1">
+
         <button class="accordion-header" onclick="toggleAccordion('item1')">Tabel 1. Akreditasi Program Studi</button>
         <div class="accordion-content">
             <div class="content-inner">
-                <table align="center" width="90%" class="table-bordered">
-                    <tr>
-                        <th>Fakultas</th>
-                        <th>Prodi</th>
-                        <th>Jenjang</th>
-                        <th>Peringkat</th>
-                    </tr>
-                    <?php foreach($apt as $row): ?>
-                    <tr>
-                        <td><?php echo $row->fakultas; ?></td>
-                        <td><?php echo $row->prodi; ?></td>
-                        <td><?php echo $row->strata; ?></td>
-                        <td><?php echo $row->peringkat; ?></td>
-                    </tr>
-                    <?php endforeach ?>
-                </table>
+                <?php
+                include('tabel_1.php');
+                ?>
+
             </div>
         </div>
     </div>
@@ -110,7 +101,11 @@
         <button class="accordion-header" onclick="toggleAccordion('item2')">Tabel 2. Sertifikasi Eksternal </button>
         <div class="accordion-content">
             <div class="content-inner">
-                Kami memiliki sertifikasi internasional dari lembaga ternama seperti <strong>ABET</strong> atau <strong>AUN-QA</strong> untuk menjamin kualitas global.
+                
+                <?php
+                include('tabel_2.php');
+                ?>
+
             </div>
         </div>
     </div>
