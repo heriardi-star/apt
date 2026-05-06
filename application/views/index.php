@@ -321,7 +321,7 @@
         <button class="accordion-header" onclick="toggleAccordion('item4')">Tabel 25. Audit Eksternal Keuangan </button>
         <div class="accordion-content">
             <div class="content-inner">
-                Mahasiswa kami aktif dalam berbagai kompetisi nasional maupun internasional serta organisasi kemahasiswaan yang dinamis.
+               halo Mahasiswa kami aktif dalam berbagai kompetisi nasional maupun internasional serta organisasi kemahasiswaan yang dinamis.
             </div>
         </div>
     </div>
