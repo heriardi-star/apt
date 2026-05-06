@@ -90,7 +90,7 @@
         <div class="accordion-content">
             <div class="content-inner">
                 <?php
-                //include('tabel_1.php');
+                include('tabel_1.php');
                 ?>
 
             </div>
@@ -103,7 +103,7 @@
             <div class="content-inner">
                 
                 <?php
-                //include('tabel_2.php');
+                include('tabel_2.php');
                 ?>
 
             </div>
