@@ -75,10 +75,10 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
-	'username' => 'root',
-	'password' => '',
-	'database' => 'apt',
+	'hostname' => '10.2.16.46',
+	'username' => 'kpm_siap',
+	'password' => 'siapmajujalan.',
+	'database' => 'kpm_siap',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
